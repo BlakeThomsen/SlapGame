@@ -1,0 +1,9 @@
+*{
+/* outline: 1px solid red */
+  
+
+}
+
+.dropshadow {
+  text-shadow: 1px 1px black;
+}

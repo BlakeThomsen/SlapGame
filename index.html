@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="cyborg.css">
+  <title>Slap Game</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row bg-info">
+        <div class="col-12 text-center text-light dropshadow">
+          <h1> <span>Coronavirus <span id="nameTest"></span></span></h1>
+          <h2><span>Health: <span id="health"></span></span>
+            <span>Hits: <span id="hits"></span></span></h2>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <main>
+    <div class="container-fluid bg-light">
+      <div class="row text-center bg-light ">
+        <div class="col-12 d-flex justify-content-center bg-light">
+          <img id="image" src="covid-19.png" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-fluid ">
+      <div class="row pt-3 pb-4 bg-info" height=50vh>
+        <div class="col-4 ">
+          <button class="btn btn-light" onclick="slap()">Disinfect </button>
+          <button class="btn btn-light" onclick="punch()">Wash Hands </button>
+          <button class="btn btn-light" onclick="kick()">Sanitize</button>
+        </div>
+        <div class="col-4 text-center">
+          <button class="btn btn-light" onclick="reset()">Reset</button>
+        </div>
+        <div class="col-4 text-right">
+          <button class="btn btn-light" onclick="giveItem1()">Hand Sanitizer </button>
+          <button class="btn btn-light" onclick="giveItem2()">Face Mask </button>
+          <button class="btn btn-light" onclick="giveItem3()">Toilet Paper</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 mt-1">
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
